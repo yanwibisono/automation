@@ -10,7 +10,7 @@ public class socrates {
 		System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.tokopedia.com");
-		// edited from github by yan wibisono
+		// edited from eclipse by yan wibisono
 	}
 
 }
