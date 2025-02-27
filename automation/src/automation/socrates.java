@@ -12,6 +12,7 @@ public class socrates {
 		driver.get("https://www.tokopedia.com");
 		// edited from eclipse by yan wibisono
 		// checking push from gitkraken
+		// checking pull by gitkraken
 	}
 
 }
