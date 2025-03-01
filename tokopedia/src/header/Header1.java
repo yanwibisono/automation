@@ -19,13 +19,25 @@ public class Header1 {
 		//Check link: Tentang Tokopedia
 		driver.findElement(By.xpath("//a[@class='css-1wx1rev'][normalize-space()='Tentang Tokopedia']")).click();
 		//Go to Homepage tab
-		Object[] windowHandles=driver.getWindowHandles().toArray();
-		driver.switchTo().window((String) windowHandles[0]);
+			Object[] windowHandles=driver.getWindowHandles().toArray();
+			driver.switchTo().window((String) windowHandles[0]);
 		
 		//CHeck link: Mitra Tokopedia
 		driver.findElement(By.xpath("//a[@class='css-1wx1rev'][normalize-space()='Mitra Tokopedia']")).click();
 		//Go to Homepage tab
-		driver.switchTo().window((String) windowHandles[0]);
+			driver.switchTo().window((String) windowHandles[0]);
+		
+		//Check link: Mulai Berjualan
+		driver.findElement(By.xpath("//a[normalize-space()='Mulai Berjualan']")).click();
+			driver.switchTo().window((String) windowHandles[0]);
+			
+		//Check link: Promo
+		driver.findElement(By.xpath("//a[normalize-space()='Promo']")).click();
+			driver.switchTo().window((String) windowHandles[0]);
+		
+		//Check link: Tokopedia Care
+		driver.findElement(By.xpath("//a[@class='css-1wx1rev'][normalize-space()='Tokopedia Care']")).click();
+			driver.switchTo().window((String) windowHandles[0]);
 		
 	}
 
