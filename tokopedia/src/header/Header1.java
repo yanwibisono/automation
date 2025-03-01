@@ -16,8 +16,17 @@ public class Header1 {
 		driver.get("https://www.tokopedia.com");
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		
-		//Open Tentang Tokopedia
+		//Check link: Tentang Tokopedia
 		driver.findElement(By.xpath("//a[@class='css-1wx1rev'][normalize-space()='Tentang Tokopedia']")).click();
+		//Go to Homepage tab
+		Object[] windowHandles=driver.getWindowHandles().toArray();
+		driver.switchTo().window((String) windowHandles[0]);
+		
+		//CHeck link: Mitra Tokopedia
+		driver.findElement(By.xpath("//a[@class='css-1wx1rev'][normalize-space()='Mitra Tokopedia']")).click();
+		//Go to Homepage tab
+		driver.switchTo().window((String) windowHandles[0]);
+		
 	}
 
 }
