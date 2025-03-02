@@ -87,5 +87,6 @@
 	<classpathentry kind="lib" path="C:/Users/wibi/eclipse-workspace/selenium-java-4.28.1/selenium-safari-driver-4.28.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/wibi/eclipse-workspace/selenium-java-4.28.1/selenium-support-4.28.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/wibi/eclipse-workspace/selenium-java-4.28.1/selenium-support-4.28.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wibi/Downloads/selenium-server-4.28.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

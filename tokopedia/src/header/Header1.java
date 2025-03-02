@@ -15,6 +15,7 @@ public class Header1 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.tokopedia.com");
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().window().maximize();		
 		
 		//Check link: Tentang Tokopedia
 		driver.findElement(By.xpath("//a[@class='css-1wx1rev'][normalize-space()='Tentang Tokopedia']")).click();
